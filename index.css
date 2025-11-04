@@ -1,5 +1,5 @@
-p a{
+p,a{
     font-size: 30px;
-    border:1px solid black;
     color: red;
+    font-weight:bold;
 }
