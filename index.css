@@ -1,6 +1,13 @@
 p,a{
     font-size: 30px;
-    color: red;
+    color:white;
     font-weight:bold;
     height: auto;
+}
+body {
+    background-image: url('pink.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
