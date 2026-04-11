@@ -1,8 +1,18 @@
 p,a{
-    font-size: 30px;
-    color:white;
-    font-weight:bold;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    font-weight:500px;
     height: auto;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    padding:0;
+    margin:0;
+}
+ul li{
+    margin-right: 40px;
 }
 body.style-default {
     background-image: url('../image/pink.jpg');
@@ -17,4 +27,15 @@ body.style-alternative {
     background-position: center; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color: #080808;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0,2);
+    z-index:1;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
 }
